@@ -1,0 +1,72 @@
+
+SHITSHOT
+linux as only OS since oct/nov 2016
+data pipeline to postgresql feb 2018
+
+next step : how to make trades based on this data?
+
+imploy strategy
+using  python
+
+
+strategy count ticks per minute
+if above hourly average three minutes in the row
+open position
+
+next step : 
+
+trigger in postges
+to call python script or madlib function
+
+
+by counting averages
+identify patterns 
+
+plots to the max
+and then more plots
+
+
+####222223333
+
+mad
+
+faith
+
+in doing
+
+
+2233333####
+
+
+do shit locally -
+
+db on krq001
+
+move scripts stuff to krq002
+
+oanda, jupyter, python stuff
+
+
+krq003 - ???  webserver or some shit
+
+
+
+dirty sketch
+
+ALTER TABLE realfun ALTER realDate SET DATA TYPE timestamp USING realDate; 
+
+CREATE TABLE rr AS SELECT to_timestamp(to_char(tb1.date, '9999-99-99 99:99:99'),'YYYY-MM-DD HH24:MI:SS') AS realDate FROM realfun AS tb1; 
+
+
+WHERE time > CURRENT_TIMESTAMP - INTERVAL '1 minute'
+FROM realfunSELECT COUNT (*)WHERE auth_user.lastactivity > CURRENT_TIMESTAMP - INTERVAL '100 days'FROM tableSELECT *  EXTRACT(EPOCH FROM date '2012-10-24' + interval '1 day');  
+
+EXTRACT(EPOCH FROM date '2012-10-21') ANDWHERE user_date BETWEENFROM users SELECT 
+
+
+
+
+
+
+
+
